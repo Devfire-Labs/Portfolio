@@ -10000,6 +10000,12 @@ video {
   }
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -10023,6 +10029,11 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.animate-spin-slow {
+  -webkit-animation: spin 9s linear infinite;
+          animation: spin 9s linear infinite;
 }
 
 .cursor-auto {
@@ -41608,6 +41619,11 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .sm\:animate-spin-slow {
+    -webkit-animation: spin 9s linear infinite;
+            animation: spin 9s linear infinite;
+  }
+
   .sm\:cursor-auto {
     cursor: auto;
   }
@@ -72837,6 +72853,11 @@ video {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:animate-spin-slow {
+    -webkit-animation: spin 9s linear infinite;
+            animation: spin 9s linear infinite;
   }
 
   .md\:cursor-auto {
@@ -104070,6 +104091,11 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .lg\:animate-spin-slow {
+    -webkit-animation: spin 9s linear infinite;
+            animation: spin 9s linear infinite;
+  }
+
   .lg\:cursor-auto {
     cursor: auto;
   }
@@ -135301,6 +135327,11 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .xl\:animate-spin-slow {
+    -webkit-animation: spin 9s linear infinite;
+            animation: spin 9s linear infinite;
+  }
+
   .xl\:cursor-auto {
     cursor: auto;
   }
@@ -166530,6 +166561,11 @@ video {
   .\32xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-spin-slow {
+    -webkit-animation: spin 9s linear infinite;
+            animation: spin 9s linear infinite;
   }
 
   .\32xl\:cursor-auto {
