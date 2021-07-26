@@ -14,6 +14,9 @@ module.exports = {
           '0%, 100%': { transform: 'rotate(-9deg)' },
           '50%': { transform: 'rotate(9deg)' },
         }
+      },
+      colors: {
+        ProtaBlack: '#333333'
       }
     },
   },
