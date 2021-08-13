@@ -17,7 +17,7 @@
         d="M79.5746 57H0V42.75H79.5746V57ZM48.6289 14.25H0V0H48.6289V14.25Z"
       />
     </svg>
-    <h4 class=" font-semibold ">Menu</h4>
+    <h4 class=" font-semibold font-serif ">Menu</h4>
   </div>
   <div class="mx-4 my-4 px-4 text-center flex items-center">
     <img

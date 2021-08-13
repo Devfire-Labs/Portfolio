@@ -3,6 +3,9 @@ module.exports = {
   purge: ['./public/index.html', './src/**/*.svelte'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      serif: ['PT Serif', 'serif'],
+    },
     extend: {},
   },
   variants: {

@@ -21,12 +21,16 @@
     </svg>
   </div>
 
-  <div class=" flex flex-col text-4xl space-y-8 ml-8  mt-24 text-gray-50">
+  <div
+    class=" flex flex-col text-4xl space-y-8 ml-8  mt-40 text-gray-50 font-serif font-semibold"
+  >
     <h2>Proyects</h2>
     <h2>About me</h2>
     <h2>Contact me</h2>
   </div>
-  <div class=" flex flex-col text-2xl space-y-6 ml-8 mt-8 text-gray-50">
+  <div
+    class=" flex flex-col text-2xl space-y-6 ml-8 mt-8 text-gray-50 font-serif font-semibold"
+  >
     <h3>Behance</h3>
     <h3>LinkedIn</h3>
     <h3>Polywork</h3>
