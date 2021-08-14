@@ -6,10 +6,14 @@ module.exports = {
     fontFamily: {
       serif: ['PT Serif', 'serif'],
     },
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 7s linear infinite',
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
+}
 }

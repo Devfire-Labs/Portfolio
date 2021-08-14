@@ -37,7 +37,7 @@
   </div>
   <div class=" flex justify-end m-12">
     <img
-      class=" object-contain h-36 w-36 "
+      class=" object-contain h-36 w-36 animate-spin-slow"
       src="/assets/stamp.svg"
       alt="Stamp"
     />

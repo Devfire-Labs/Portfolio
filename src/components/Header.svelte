@@ -2,7 +2,7 @@
   import { menu } from "../stores/menu";
 </script>
 
-<header class="bg-gray-50 relative h-24 flex justify-between pt-6">
+<header class="bg-gray-50 h-24 flex justify-between pt-6 sticky top-0">
   <div
     class="mx-4 my-4 px-4 flex items-center space-x-2 modal-open"
     on:click={menu.toggle}
