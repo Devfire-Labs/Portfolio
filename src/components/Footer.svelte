@@ -23,7 +23,7 @@
       <h2>Behance</h2>
       <h2>LinkedIn</h2>
       <h2>Polywork</h2>
-      <h2>Contact Me</h2>
+      <h2 class=" text-red-400">Contact Me</h2>
     </div>
   </div>
 </footer>
