@@ -16,11 +16,9 @@
   </div>
 </header>
 
-<div class=" md:flex md:flex-row md:justify-between ">
+<div class=" md:grid md:grid-cols-3 md:justify-between ">
   <!-- First Object (Pocky Pop) -->
-  <div
-    class=" flex flex-col text-center font-serif text-lg lg:text-xl lg:w-2/5 mt-8"
-  >
+  <div class=" flex flex-col text-center font-serif text-lg lg:text-xl mt-8">
     <img
       class="object-cover h-96 md:h-64 lg:h-80 m-8"
       src="/assets/img1.png"
@@ -31,9 +29,7 @@
   </div>
 
   <!-- Second Object (House App) -->
-  <div
-    class=" flex flex-col text-center font-serif text-lg lg:text-xl lg:w-2/5 mt-8"
-  >
+  <div class=" flex flex-col text-center font-serif text-lg lg:text-xl mt-8">
     <img
       class="object-cover h-96 md:h-64 lg:h-80 m-8"
       src="/assets/img2.png"
@@ -44,9 +40,7 @@
   </div>
 
   <!-- Third Object (Pouf Co) -->
-  <div
-    class=" flex flex-col text-center font-serif text-lg lg:text-xl lg:w-2/5 mt-8"
-  >
+  <div class=" flex flex-col text-center font-serif text-lg lg:text-xl mt-8">
     <img
       class="object-cover h-96 md:h-64 lg:h-80 m-8"
       src="/assets/img5.png"
@@ -57,9 +51,7 @@
   </div>
 
   <!-- Fourth Object (Silvestre) -->
-  <div
-    class=" flex flex-col text-center font-serif text-lg lg:text-xl lg:w-2/5 mt-8"
-  >
+  <div class=" flex flex-col text-center font-serif text-lg lg:text-xl mt-8">
     <img
       class="object-cover h-96 md:h-64 lg:h-80 m-8"
       src="/assets/img6.png"
@@ -71,7 +63,7 @@
 
   <!-- Fifth Object (Wendy) -->
   <div
-    class=" flex flex-col text-center font-serif text-lg mt-8 lg:text-xl lg:w-2/5 mb-12"
+    class=" flex flex-col text-center font-serif text-lg mt-8 lg:text-xl mb-12"
   >
     <img
       class="object-cover h-96 md:h-64 lg:h-80 m-8"
