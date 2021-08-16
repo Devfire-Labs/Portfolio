@@ -21,26 +21,29 @@
     </svg>
   </div>
 
-  <div
-    class=" flex flex-col text-4xl space-y-8 ml-8  mt-40 text-gray-50 font-serif font-semibold"
-  >
-    <h2>Proyects</h2>
-    <h2>About me</h2>
-    <h2>Contact me</h2>
-  </div>
-  <div
-    class=" flex flex-col text-2xl space-y-6 ml-8 mt-8 text-gray-50 font-serif font-semibold"
-  >
-    <h3>Behance</h3>
-    <h3>LinkedIn</h3>
-    <h3>Polywork</h3>
-  </div>
-  <div class=" flex justify-end m-12">
-    <img
-      class=" object-contain h-36 w-36 animate-spin-slow"
-      src="/assets/stamp.svg"
-      alt="Stamp"
-    />
+  <div class=" flex flex-col md:flex-row md:justify-between ">
+    <div
+      class=" flex flex-col mt-40 md:mt-28 text-gray-50 font-serif font-semibold"
+    >
+      <div class=" text-4xl lg:text-5xl space-y-8 ml-8 ">
+        <h2>Proyects</h2>
+        <h2>About me</h2>
+        <h2>Contact me</h2>
+      </div>
+      <div class=" text-2xl lg:text-3xl space-y-6 ml-8 mt-8 ">
+        <h3>Behance</h3>
+        <h3>LinkedIn</h3>
+        <h3>Polywork</h3>
+      </div>
+    </div>
+
+    <div class=" flex justify-end m-12 md:mt-28">
+      <img
+        class=" object-contain h-36 w-36 animate-spin-slow"
+        src="/assets/stamp.svg"
+        alt="Stamp"
+      />
+    </div>
   </div>
 </div>
 

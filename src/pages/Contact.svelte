@@ -5,7 +5,9 @@
 <!-- Title -->
 <header>
   <div class=" flex flex-col  mx-8 mt-20 mb-8 font-serif">
-    <h1 class=" text-5xl font-semibold text-red-400">Hit me up</h1>
+    <h1 class=" text-5xl md:text-6xl lg:text-7xl font-semibold text-red-400">
+      Hit me up
+    </h1>
     <p class=" text-lg my-2 ">
       You can send me an email explaining your project and then i can set up a
       meeting to discuss a proposal.

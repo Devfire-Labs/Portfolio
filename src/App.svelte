@@ -12,7 +12,7 @@
 
 <main>
   <Header />
-  <Home />
+  <Work />
   <Footer />
 </main>
 
