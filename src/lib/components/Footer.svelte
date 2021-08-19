@@ -1,11 +1,13 @@
 <footer
   class="border-t-2 border-gray-500 m-8 lg:m-16 py-8 lg:py-12 bottom-0 p-1 flex flex-wrap lg:flex-row justify-between md:items-center"
 >
-  <img
-    class=" object-contain h-16 md:h-20"
-    src="/assets/logofooter.svg"
-    alt="Logo"
-  />
+  <a href="/">
+    <img
+      class=" object-contain h-16 md:h-20"
+      src="/assets/logofooter.svg"
+      alt="Logo"
+    />
+  </a>
 
   <img
     class=" object-contain h-14 md:h-16 animate-spin-slow"

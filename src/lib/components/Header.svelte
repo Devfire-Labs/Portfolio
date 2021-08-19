@@ -19,11 +19,11 @@
     </svg>
     <h4 class=" font-semibold font-serif text-base lg:text-lg">Menu</h4>
   </div>
-  <div class="mx-4 my-4 px-4 text-center flex items-center">
+  <a href="/" class="mx-4 my-4 px-4 text-center flex items-center">
     <img
       class=" object-contain h-10 lg:h-14 w-full"
       src="/assets/logo1.svg"
       alt="Logo"
     />
-  </div>
+  </a>
 </header>
