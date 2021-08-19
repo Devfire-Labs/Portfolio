@@ -26,7 +26,7 @@
       class=" flex flex-col mt-40 md:mt-28 text-gray-50 font-serif font-semibold"
     >
       <div class="flex flex-col text-4xl lg:text-5xl space-y-8 ml-8 ">
-        <a href="/work" on:click={menu.toggle}>Proyects</a>
+        <a href="/work/all" on:click={menu.toggle}>Proyects</a>
         <a href="/about" on:click={menu.toggle}>About me</a>
         <a href="/contact" on:click={menu.toggle}>Contact me</a>
       </div>
