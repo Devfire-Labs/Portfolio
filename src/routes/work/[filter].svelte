@@ -1,20 +1,24 @@
-<script>
-  import { menu } from "../stores/menu";
+<!-- Title and filters -->
+<script context="module">
+  import { work } from "$lib/posts/work";
+
+  export const load = ({ page }) => {
+    console.log(page);
+    let filter = page.params.filter;
+    return {
+      props: {
+        filter,
+        posts:
+          filter === "" ? work : work.filter((post) => post.type === filter),
+      },
+    };
+  };
 </script>
 
-<!-- Title and filters -->
-<header>
-  <div class=" flex flex-col  ml-8 my-20 font-serif">
-    <h1 class=" text-5xl md:text-6xl lg:text-7xl font-semibold text-red-400">
-      Work
-    </h1>
-    <div class=" flex flex-row text-2xl mt-4">
-      <h2 class=" text-red-400">All</h2>
-      <h2 class=" ml-4">UI/UX</h2>
-      <h2 class=" ml-4">Branding</h2>
-    </div>
-  </div>
-</header>
+<script>
+  export let filter, posts;
+  console.log("Posts:", posts);
+</script>
 
 <div class=" md:grid md:grid-cols-3 md:justify-between ">
   <!-- First Object (Pocky Pop) -->
@@ -55,7 +59,7 @@
     <img
       class="object-cover h-96 md:h-64 lg:h-80 m-8"
       src="/assets/img6.png"
-      alt="Pouf Co Website"
+      alt="Silvestre Meat Packing"
     />
     <h2 class="font-bold ">Meat Packing by Silvestre</h2>
     <h2>Branding</h2>

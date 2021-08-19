@@ -1,7 +1,3 @@
-<script>
-  import { menu } from "../stores/menu";
-</script>
-
 <!-- Title -->
 <header>
   <div class=" flex flex-col  mx-8 mt-20 font-serif">
@@ -41,7 +37,7 @@
       <h1 class=" text-3xl font-semibold text-gray-900">
         Tell me about your project
       </h1>
-      <div class=" flex my-2">
+      <a href="/contact" class=" flex my-2">
         <h2 class=" text-xl font-semibold text-red-400">
           If you are interested :)
         </h2>
@@ -55,7 +51,7 @@
             d="M18.17 13L15.59 15.59L17 17L22 12L17 7L15.59 8.41L18.17 11H2V13H18.17Z"
           />
         </svg>
-      </div>
+      </a>
     </div>
   </div>
 </div>
