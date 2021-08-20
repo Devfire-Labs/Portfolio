@@ -17,18 +17,28 @@
 
   <div class=" flex flex-row font-serif text-lg mt-8 md:mt-0">
     <div class="flex flex-col">
-      <a href="/work">Projects</a>
-      <a href="/work">Branding</a>
-      <a href="/work">UI/UX</a>
-      <a href="/about">About Me</a>
+      <a class=" hover:text-red-400" href="/work">Projects</a>
+      <a class=" hover:text-red-400" href="/work">Branding</a>
+      <a class=" hover:text-red-400" href="/work">UI/UX</a>
+      <a class=" hover:text-red-400" href="/about">About Me</a>
     </div>
     <div class="flex flex-col ml-16">
-      <a href="https://www.behance.net/jahazrod" target="_blank">Behance</a>
-      <a href="https://www.linkedin.com/in/jahazrod/" target="_blank"
-        >LinkedIn</a
+      <a
+        class=" hover:text-red-400"
+        href="https://www.behance.net/jahazrod"
+        target="_blank">Behance</a
       >
-      <a href="https://www.polywork.com/youngprota" target="_blank">Polywork</a>
-      <a href="/contact" class=" text-red-400">Contact Me</a>
+      <a
+        class=" hover:text-red-400"
+        href="https://www.linkedin.com/in/jahazrod/"
+        target="_blank">LinkedIn</a
+      >
+      <a
+        class="hover:text-red-400"
+        href="https://www.polywork.com/youngprota"
+        target="_blank">Polywork</a
+      >
+      <a href="/contact" class=" text-red-400 hover:text-red-600">Contact Me</a>
     </div>
   </div>
 </footer>

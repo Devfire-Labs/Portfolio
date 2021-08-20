@@ -8,12 +8,13 @@
       You can send me an email explaining your project and then i can set up a
       meeting to discuss a proposal.
     </p>
-    <a href="mailto: jahazrodriguez@gmail.com" class=" flex my-2">
-      <h2 class=" text-xl font-semibold text-red-400">
-        Jahazrodriguez@gmail.com
-      </h2>
+    <a
+      href="mailto: jahazrodriguez@gmail.com"
+      class=" text-red-400 hover:text-red-600 flex my-2"
+    >
+      <h2 class=" text-xl font-semibold">Jahazrodriguez@gmail.com</h2>
       <svg
-        class="fill-current text-red-400 h-8 w-6 ml-1 "
+        class="fill-current h-8 w-6 ml-1 "
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -23,20 +23,40 @@
 
   <div class=" flex flex-col md:flex-row md:justify-between ">
     <div
-      class=" flex flex-col mt-40 md:mt-28 text-gray-50 font-serif font-semibold"
+      class=" flex flex-col mt-40 md:mt-28 text-gray-50  font-serif font-semibold"
     >
       <div class="flex flex-col text-4xl lg:text-5xl space-y-8 ml-8 ">
-        <a href="/work/all" on:click={menu.toggle}>Proyects</a>
-        <a href="/about" on:click={menu.toggle}>About me</a>
-        <a href="/contact" on:click={menu.toggle}>Contact me</a>
+        <a
+          class="hover:text-red-400 transition duration-500"
+          href="/work/all"
+          on:click={menu.toggle}>Proyects</a
+        >
+        <a
+          class="hover:text-red-400 transition duration-500"
+          href="/about"
+          on:click={menu.toggle}>About me</a
+        >
+        <a
+          class="hover:text-red-400 transition duration-500"
+          href="/contact"
+          on:click={menu.toggle}>Contact me</a
+        >
       </div>
       <div class="flex flex-col text-2xl lg:text-3xl space-y-6 ml-8 mt-8 ">
-        <a href="https://www.behance.net/jahazrod" target="_blank">Behance</a>
-        <a href="https://www.linkedin.com/in/jahazrod/" target="_blank"
-          >LinkedIn</a
+        <a
+          class="hover:text-red-400 transition duration-500"
+          href="https://www.behance.net/jahazrod"
+          target="_blank">Behance</a
         >
-        <a href="https://www.polywork.com/youngprota" target="_blank"
-          >Polywork</a
+        <a
+          class="hover:text-red-400 transition duration-500"
+          href="https://www.linkedin.com/in/jahazrod/"
+          target="_blank">LinkedIn</a
+        >
+        <a
+          class="hover:text-red-400 transition duration-500"
+          href="https://www.polywork.com/youngprota"
+          target="_blank">Polywork</a
         >
       </div>
     </div>

@@ -4,7 +4,6 @@
     { name: "All", value: "all" },
     { name: "UI/UX", value: "ui-ux" },
     { name: "Branding", value: "branding" },
-    { name: "Web", value: "web" },
   ];
   let active = "all";
   const changeActive = (value) => (active = value);

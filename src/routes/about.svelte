@@ -37,12 +37,10 @@
       <h1 class=" text-3xl font-semibold text-gray-900">
         Tell me about your project
       </h1>
-      <a href="/contact" class=" flex my-2">
-        <h2 class=" text-xl font-semibold text-red-400">
-          If you are interested :)
-        </h2>
+      <a href="/contact" class=" flex my-2 text-red-400 hover:text-red-600">
+        <h2 class=" text-xl font-semibold ">If you are interested :)</h2>
         <svg
-          class="fill-current text-red-400 h-8 w-6 ml-1 "
+          class="fill-current h-8 w-6 ml-1 "
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

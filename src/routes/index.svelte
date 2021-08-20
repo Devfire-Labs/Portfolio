@@ -53,7 +53,7 @@
   <div class="flex justify-center mt-4">
     <a
       href="/work"
-      class=" flex flex-col text-center rounded-full h-32 w-32 justify-center border-red-400 border-2 font-serif font-bold m-8"
+      class=" flex flex-col text-center rounded-full h-32 w-32 justify-center border-red-400 hover:bg-red-400 text-gray-900 hover:text-gray-50 transition duration-500 border-2 font-serif font-bold m-8"
     >
       More
     </a>
@@ -71,12 +71,15 @@
         I’m a creative soul, specialized in Branding and UI/UX design. I always
         focus on the user experience first.
       </p>
-      <a href="/about" class=" flex">
-        <h2 class=" text-2xl lg:text-3xl font-semibold text-red-400">
+      <a
+        href="/about"
+        class=" flex text-red-400 hover:text-red-600 transition duration-500"
+      >
+        <h2 class=" text-2xl lg:text-3xl font-semibold ">
           Get to know me more
         </h2>
         <svg
-          class="fill-current text-red-400 h-8 w-6 ml-1 "
+          class="fill-current h-8 w-6 ml-1 "
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -104,15 +107,16 @@
       alt="Contact Me"
     />
     <div class=" md:w-1/2 lg:w-2/5">
-      <h1 class=" text-4xl lg:text-5xl font-semibold text-gray-900 ">
+      <h1 class=" text-4xl lg:text-5xl font-semibold text-gray-900">
         Tell me about your project
       </h1>
-      <a href="/contact" class=" flex my-2">
-        <h2 class=" text-2xl lg:text-3xl font-semibold text-red-400">
-          If you want to ;)
-        </h2>
+      <a
+        href="/contact"
+        class=" flex my-2 text-red-400 hover:text-red-600 transition duration-500"
+      >
+        <h2 class=" text-2xl lg:text-3xl font-semibold">If you want to ;)</h2>
         <svg
-          class="fill-current text-red-400 h-8 w-6 ml-1 "
+          class="fill-current h-8 w-6 ml-1 "
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
